@@ -16,9 +16,19 @@
   	<servlet-class>com.lgi.app.member.controller.MemberFrontController</servlet-class>
   </servlet>
   
+  <servlet>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<servlet-class>com.lgi.app.board.controller.BoardFrontController</servlet-class>
+  </servlet>
+  
   <servlet-mapping>
   	<servlet-name>MemberFrontController</servlet-name>
   	<url-pattern>*.me</url-pattern>
+  	
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<url-pattern>*.bo</url-pattern>
   </servlet-mapping>
   
 </web-app>
