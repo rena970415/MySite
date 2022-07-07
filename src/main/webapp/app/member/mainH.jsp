@@ -16,7 +16,7 @@
         <ul>
             <li><a href="#">About</a></li>
             <li><a href="join.jsp">Join</a></li>
-            <li><a href="#">Board</a></li>
+            <li><a href="boardList.jsp">Board</a></li>
             <li><a href="#">Find</a></li>
             <li><a href="login.jsp">Login</a></li>
         </ul>

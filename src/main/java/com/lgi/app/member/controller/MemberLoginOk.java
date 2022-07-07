@@ -29,7 +29,7 @@ public class MemberLoginOk implements Action {
 		// boolean으로 해뒀기 때문에 if문을 이용함
 		if(dao.login(memberId, memberPw)) {
 			session.setAttribute("sessionId", memberId);
-			forward.setPath(req.getContextPath() + "/board/BoardList.bo");
+			forward.setPath(req.getContextPath() + "/app/member/mainH.jsp");
 		}else {
 			forward.setPath(req.getContextPath() + "/member/MemberLogin.me?code=false");
 		}

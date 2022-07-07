@@ -13,7 +13,7 @@
             <div class="form-wrap">
                 <div class="button-wrap">
                     <div id="btn"></div>              
-                    <button type="button" class="togglebtn" >REGISTER</button>
+                    <button type="button" class="toggleb'tn" >REGISTER</button>
                 </div>
                 
                 <div class="social-icons">

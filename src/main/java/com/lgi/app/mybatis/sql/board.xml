@@ -14,5 +14,8 @@
 	]]>	
 	</select>
 	
+	<select id="getTotal"  resultType="_int">
+		SELECT COUNT(BOARDNUM) FROM SITE_BOARD;
+	</select>
 	
 </mapper>
